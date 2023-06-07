@@ -1,1 +1,1 @@
-12 file type
+13 symbolic link
