@@ -1,0 +1,2 @@
+#!/bin/bash
+# Loop through each environment variable and print its name and value
