@@ -1,0 +1,8 @@
+#!/bin/bash
+
+filename="ls_cwd_content"
+
+# Run the ls -la command and write the output to the file
+ls -la > "$filename"
+
+echo "ls -la command output written to '$filename'."
