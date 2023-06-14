@@ -1,2 +1,2 @@
 #!/bin/bash
-# Split the PATH variable into an array using ":" as the delimiter
+echo $PATH | tr ":" "\n" | WC -l
